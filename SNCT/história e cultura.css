@@ -1,0 +1,77 @@
+*{
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: inline-block; /* importante */
+    max-width: 1200px;
+
+  
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+span{
+    color: rgba(241, 170, 15, 0.856);
+}
+.intro{
+    text-align: center;
+}
+.intro p{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container {
+    display: flex;
+}
+
+.container img {
+    height: 190px;
+    object-fit: cover; /* Isso garantirá que a proporção original seja mantida */
+    margin-right: 0; /* Remover a margem direita padrão para evitar espaçamento entre as imagens */
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 700px) {
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    .container img {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .intro, .manifestações, .personalidades {
+        padding: 10px;
+    }
+
+    .manif01 p, .manif02 p, .fim p {
+        margin: 15px 10px;
+    } 
+    
+
+    h2, h3 {
+        margin-left: 10px;
+    }
+}

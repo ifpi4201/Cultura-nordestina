@@ -1,0 +1,68 @@
+/* ESTILO GERAL */
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    align-items: justify;
+  
+}
+body{
+    background-color: black;
+    height: 100vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+span{
+    color: rgba(241, 170, 15, 0.856);
+}
+.legenda-imagem p{
+    width: 500px;
+    margin-top: 20px;
+}
+
+/* INTRO */
+h1{
+    margin-top: 50px;
+}
+
+.intro p{
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+/* TODOS OS EXEMPLOS */
+.legenda-imagem img{
+    width: 350px;
+    right: 350px;
+    margin-top: 20px;
+  
+}
+/* FIM */
+.fim p{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 700px){
+    .legenda-imagem img, .legenda-imagem p, .intro p, .fim p {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+
+
+

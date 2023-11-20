@@ -1,0 +1,225 @@
+*{
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: inline-block; /* importante */
+    max-width: 1200px;
+
+  
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+span{
+    color: rgba(241, 170, 15, 0.856);
+}
+.intro{
+    text-align: center;
+}
+.intro p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* EVENTO 01 */
+.evento01{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento01 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento01 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    right: 360px;
+    width: 360px;
+}
+
+/* EVENTO 02 */
+
+.evento02{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento02 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento02 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+/* EVENTO03 */
+
+.evento03{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento03 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento03 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+/* EVENTO04 */
+
+.evento04{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento04 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento04 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+/* EVENTO05 */
+
+.evento05{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento05 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento05 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+/* EVENTO06 */
+
+.evento06{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento06 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento06 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 700px) {
+    * {
+        margin: 0 auto;
+        padding: 5px;
+        box-sizing: border-box;
+        max-width: 100%; /* Alteração importante para telas menores */
+    }
+
+    body {
+        overflow-x: hidden; /* Impede a barra de rolagem horizontal */
+    }
+    h1{
+        font-size: 24px;
+        margin-top: -5px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+    .intro,
+    .evento01,
+    .evento02,
+    .evento03,
+    .evento04,
+    .evento05,
+    .evento06,
+    .fim {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .legenda-imagem {
+        display: block; /* Alterando para bloco para empilhar elementos */
+        text-align: center; /* Centralizando o texto */
+        flex-direction: column;
+    }
+
+    .legenda-imagem img {
+        width: 100%; /* Para garantir que a imagem se ajuste à largura do contêiner */
+        margin-bottom: 10px;
+    }
+
+    .evento01 .legenda-imagem img,
+    .evento02 .legenda-imagem img,
+    .evento03 .legenda-imagem img,
+    .evento04 .legenda-imagem img,
+    .evento05 .legenda-imagem img,
+    .evento06 .legenda-imagem img {
+        margin-left: 0; /* Removendo a margem esquerda nas imagens */
+        float: none; /* Removendo o float para empilhar as imagens */
+        margin-right: 0;
+        right: 0;
+    }
+}

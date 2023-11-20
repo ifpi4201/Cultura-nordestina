@@ -1,0 +1,135 @@
+*{
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: inline-block; /* importante */
+    max-width: 1200px;
+
+  
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+span{
+    color: rgba(241, 170, 15, 0.856);
+}
+.intro{
+    text-align: center;
+}
+.intro p{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.intro img{
+    right: 350px;
+    width: 390px;
+}
+h2{
+    text-align: center;
+}
+.cordelistasAtuais img{
+    width: 300px;
+    right: 300px;
+}
+/* BRAULIO */
+.braulio{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.braulio .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.braulio .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* MARCO */
+
+.marco{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.marco .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.marco .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* JARID */
+.jarid{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.jarid .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.jarid .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+@media screen and (max-width: 700px) {
+    .intro img, .cordelistasAtuais img {
+        width: 100%;
+       
+    }
+
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    .cordelistasAtuais .legenda-imagem{
+        flex-direction: column;
+    }
+   .legenda-imagem p{
+      
+       justify-content: center;
+       margin-left: 45px;
+       margin-top: 10px;
+    }
+}
+

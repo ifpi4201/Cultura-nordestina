@@ -1,0 +1,67 @@
+*{
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: inline-block; /* importante */
+    max-width: 1200px;
+
+  
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+span{
+    color: rgba(241, 170, 15, 0.856);
+}
+.intro{
+    text-align: center;
+}
+.intro p{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container{
+    display: flex;
+}
+
+.container img{
+    height: 200px;
+    object-fit: cover; /* Isso garantirá que a proporção original seja mantida */
+    margin-right: 0; /* Remover a margem direita padrão para evitar espaçamento entre as imagens */
+    margin-left: 25px;
+  
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 700px) {
+    .container img {
+       margin-top: 5px;
+       width: 100%;
+
+    }
+    /* Adiciona estilo para organizar imagens em colunas */
+    .container {
+       flex-direction: column; /* Organiza as imagens em uma coluna */
+        align-items: center; /* Centraliza as imagens na tela */
+    }
+    h1 {
+        font-size: 24px; /* Reduz o tamanho da fonte do título */
+    }
+    h2{
+       font-size: 22px; 
+    }
+    p{
+        font-size: 15px;
+        width: 100%;
+    }
+
+}

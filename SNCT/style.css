@@ -1,0 +1,472 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+
+}
+
+.interface{
+    max-width: 1265px;
+    margin: 0 auto;
+
+}
+
+h2.título{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+h2.título span{
+    color: rgba(241, 170, 15, 0.856);
+} 
+
+.flex{
+    display: flex;
+}
+
+/*ESTILO DO CABEÇALHO*/
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: black; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 2px;
+    border-bottom: 2px solid green; /* Borda inferior do cabeçalho */
+    opacity: 0.7; /* Inicialmente, o cabeçalho é invisível */
+    transition: opacity 0.3s ease; /* Adiciona uma transição suave */
+}
+header:hover, header:active {
+    opacity: 1; /* Torna totalmente visível quando o mouse está sobre o cabeçalho ou clicado */ 
+}
+
+header > .interface{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+   
+}
+
+header a{
+    color: #7d7d7d;
+    text-decoration: none; /* tira o sublinhado */
+    display: inline-block; /* zoom nas opções de menu */
+    transition: .2s; /* tempo de zoom */
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05); /* tamanho do zoom */
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    margin-top: 15px;
+
+}
+
+/* ESTILO DO TOPO DO SITE */
+
+.logo img{
+    width: 55px; /*largura*/
+    height: 55px; /*comprimento*/
+    margin-left: 20px;
+
+}
+section.topo-do-site{
+    padding: 40px 4%;
+    margin-top: 100px;
+
+}
+
+section.topo-do-site .flex{
+   align-items: center;
+   justify-content: center;  
+   gap: 90px;
+    
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: rgba(241, 170, 15, 0.856);
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+    text-align: justify;
+
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    width: 300px; /*largura*/
+    height: 300px; /*comprimento*/
+
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* ESTILO DOS ENCANTOS NORDESTINOS*/
+section.encantos{
+    padding: 40px 4%;
+  
+
+}
+ 
+section.encantos .flex{
+   gap: 70px;  /* espaçamento entre os elementos na horizontal */
+}
+
+
+/* Configurações na linha 1*/
+.encantos .encantos-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 55px; /* espaçamento dos elementos com o título na vertical*/
+    transition: .2s;
+
+
+}
+.encantos .encantos-box h3{
+    margin: 15px 0;
+}
+
+.encantos .encantos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffffa8;
+}
+
+/* Configuração dos ícones*/
+.encantos .encantos-box i{
+    font-size: 60px;
+    color: rgba(241, 170, 15, 0.856);
+}
+
+.encantos .encantos-box p{
+    text-align: justify;
+    word-spacing: -3px;
+    width: 250px;
+}
+
+
+
+
+/* Configuração do título */
+.interface h3 a{
+    font-size: 25px;
+    margin: 15px 0;
+    text-decoration: none; 
+    color:#fff
+
+}
+.interface h3 a:hover{
+    color: rgb(211, 184, 127);
+}
+
+
+
+/* Configurações na linha 2*/
+
+section.encantos-l2{
+    padding: 10px 4%;
+
+}
+ 
+section.encantos-l2 .flex{
+   gap: 70px;  /* espaçamento entre os elementos na horizontal */
+
+}
+.encantos-l2 .encantos-box-l2{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 35px;
+    transition: .2s;
+    
+}
+
+ /* Configuração dos ícones*/
+.encantos-l2 .encantos-box-l2 i{
+    font-size: 60px;
+   
+}  
+
+.encantos-l2 .encantos-box-l2 p{
+    text-align: justify;
+    word-spacing: -2px; /* espaço entre palavras */
+    width: 250px;
+}
+
+/* Configuração do título */
+.encantos-l2 .encantos-box-l2 h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+
+.encantos-l2 .encantos-box-l2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffffa8;
+}
+
+
+
+/* Configurações na linha 3*/
+
+section.encantos-l3{
+    padding: 10px 4%;
+}
+ 
+section.encantos-l3 .flex{
+   gap: 70px;  /* espaçamento entre os elementos na horizontal */
+}
+
+.encantos-l3 .encantos-box-l3{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 35px;
+    transition: .2s;
+}
+
+
+ /* Configuração dos ícones*/
+.encantos-l3 .encantos-box-l3 i{
+    font-size: 60px;
+}  
+
+
+
+/* Configuração do título */
+.encantos-l3 .encantos-box-l3 h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.encantos-l3 .encantos-box-l3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffffa8;
+}
+
+.encantos-l3 .encantos-box-l3 p{
+    text-align: justify;
+    width: 250px;
+    word-spacing: -1px;
+}
+
+/* ESTILO DO SOBRE */
+
+section.sobre-nós{
+    padding: 80px 4%;
+
+}
+
+section.sobre-nós .flex{
+    align-items: center;
+    gap: 70px;
+}
+
+.sobre-nós .txt-sobre-nós{
+    color: #fff;
+}
+
+.sobre-nós .txt-sobre-nós h2{
+    font-size: 40px;
+    margin-bottom: 30px; /* espaço entre o span e descrição*/
+    
+}
+
+.sobre-nós .txt-sobre-nós h2 span{
+    color:rgba(241, 170, 15, 0.856);
+
+}
+
+.sobre-nós .txt-sobre-nós p{
+    text-align: justify; /* deixa texto alinhado*/
+}
+
+/* ESTILO DO RODAPÉ */
+
+footer{
+    margin-top: 55px;
+    padding: 40px 5%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    margin-right: 0;
+}
+
+.interface .logo-footer img{
+    width: 65px; /*largura*/
+    height: 60px; /*comprimento*/
+
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+footer .line-footer .ano{ 
+    margin-left: 1000px; /* mover na vertical */
+    margin-top: -28px; /* mover na horizontal*/
+
+}
+footer .line-footer-borda{
+    border-bottom: 2px solid green;
+}
+
+
+footer p{
+    color: #fff;
+    font-size: 13px; 
+    font-family:  'Poppins';
+
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 1200px){
+    /* CLASSES GERAIS */
+   
+    .flex{
+        flex-direction: column;
+    }
+     
+    h2.título{
+        font-size: 25px;
+        line-height: 30px ;
+        margin-bottom: 25px;
+
+    }
+
+
+    /* CABEÇALHO */
+    .menu-desktop{
+        display: none;
+    }
+
+    /* TOPO DO SITE */
+    section.topo-do-site{
+        padding: 20px 8%;
+    
+    }
+    
+    .topo-do-site h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .topo-do-site .txt-topo-site p{
+        font-size: 15px;
+    
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    section.topo-do-site .flex{
+        gap: 40px;
+         
+    }
+
+    /* ENCANTOS */
+
+    .encantos .encantos-box h3{
+        margin-left: -30px;
+
+    }
+
+    .encantos-l2 .encantos-box-l2 h3{
+        margin-left: -30px;
+    }
+
+    .encantos-l3 .encantos-box-l3 h3{
+        margin-left: -30px;
+
+    }
+    .encantos, .encantos-l2, .encantos-l3{
+        padding: 40px 8%;
+    }
+    .encantos p, .encantos-l2 p, .encantos-l3 p{
+        margin-left: -30px;
+        margin-right: -1580px;
+        text-align: center;
+
+    }
+    .encantos-box, .encantos-box-l2, .encantos-box-l3{
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+    .encantos .encantos-box, .encantos-l2 .encantos-box-l2, .encantos-l3 .encantos-box-l3{
+        margin-top: 5px;
+    }
+    .encantos .encantos-box i, img{
+        margin-left: -30px;
+    }
+
+    .encantos-l2 .encantos-box-l2 img{
+        margin-left: -30px;
+    } 
+
+    .encantos-l3 .encantos-box-l3 img{
+        margin-left: -30px;
+    }
+
+    .encantos .encantos-box p, .encantos-l2 .encantos-box-l2 p, .encantos-l3 .encantos-box-l3 p{
+        width: 200px;
+        font-size: 15px;
+    }
+
+    /* RODAPÉ */
+    .interface .logo-footer img{
+      margin-left: 10px;
+    }
+    
+    .interface .ano p{
+        margin-left: -770px;
+    }
+
+    footer p{
+        font-size: 10px;
+
+    }
+
+   
+}

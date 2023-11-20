@@ -1,0 +1,777 @@
+/* ESTILO GERAL */
+*{
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: inline-block; /* importante */
+    max-width: 1200px;
+  
+}
+body{
+    background-color: black;
+    height: 100vh;
+
+}
+
+
+img{
+    width: 350px;
+    right: 350px;
+    margin-left: -100px;
+    position: left;
+  
+}
+/* INTRODUÇÃO */
+body .intro{
+    text-align: center;
+    margin-top: 2px;
+   
+}
+body .intro p{
+   margin-top: 50px;
+   margin-left: 150px;
+   margin-right: 150px;
+   font-size: 20px;
+
+}
+span{
+    color: rgba(241, 170, 15, 0.856);
+}
+
+/* FORRÓ */
+section .forro .intro p{
+    margin-left: 75px;
+    margin-right: 75px;
+
+}
+
+.forro h2{
+    margin-top: 60px;
+}
+
+.LuizG{
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.forro h3{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.LuizG .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.LuizG .legenda-imagem img{
+
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.LuizG .legenda-imagem p{
+    text-align: center;
+}
+
+.Dominguinhos{
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.Dominguinhos .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.Dominguinhos .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.Dominguinhos .legenda-imagem p{
+    text-align: center;
+
+}
+
+.forro ul{
+    margin-left: 95px;
+}
+.forro li{
+    color:#fff;
+}
+
+/* FREVO */
+
+section .frevo .intro p{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.AlceuV{
+    padding: 20px;
+    margin-top: 50px;
+}
+.frevo h2{
+    margin-top: 60px;
+}
+
+.frevo h3{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.AlceuV .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.AlceuV .legenda-imagem img{
+
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 250px;
+    right: 350px;
+    
+}
+
+ 
+.AlceuV .legenda-imagem p{
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+.Lenine{
+    padding: 20px;
+    margin-top: 50px;
+}
+.Lenine .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Lenine .legenda-imagem img{
+
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.Lenine .legenda-imagem p{
+    text-align: center;
+}
+
+.frevo ul{
+    margin-left: 95px;
+}
+.frevo li{
+    color:#fff;
+}
+/* BAIÃO */
+
+section .baião .intro p{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.LuizG{
+    padding: 20px;
+    margin-top: 35px;
+}
+.baião h2{
+    margin-top: 60px;
+}
+
+.baião h3{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.baião p{
+    margin-left: 55px;
+}
+
+
+.Jackson{
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.Jackson .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Jackson .legenda-imagem img{
+
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.Jackson .legenda-imagem p{
+    text-align: center;
+}
+
+.baião ul{
+    margin-left: 95px;
+}
+.baião li{
+    color:#fff;
+}
+
+/* MARACATU */
+
+section .Maracatu .intro p{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.Maracatu h3{
+    margin-top: 50px;
+}
+
+.Nana{
+    padding: 20px;
+    margin-top: 50px;
+}
+.Nana h2{
+    margin-top: 60px;
+}
+
+.Nana h3{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+.Nana p{
+    margin-left: 10px;
+}
+
+.Nana .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Nana .legenda-imagem img{
+
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.Nana .legenda-imagem p{
+    text-align: center;
+}
+
+
+.MundoL{
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.MundoL .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.MundoL .legenda-imagem img{
+
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.MundoL .legenda-imagem p{
+    text-align: center;
+}
+
+.Maracatu ul{
+    margin-left: 95px;
+}
+.Maracatu li{
+    color:#fff;
+}
+
+
+/* MANGUEBEAT */
+
+section .Manguebeat .intro p{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.ChicoEnacao{
+    padding: 20px;
+    margin-top: 50px;
+}
+.ChicoEnacao h2{
+    margin-top: 60px;
+}
+
+.ChicoEnacao h3{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+.ChicoEnacao p{
+    margin-left: 10px;
+}
+
+.ChicoEnacao .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.ChicoEnacao .legenda-imagem img{
+
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.ChicoEnacao .legenda-imagem p{
+    text-align: center;
+}
+
+
+.NacaoZumbi{
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.NacaoZumbi .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.NacaoZumbi .legenda-imagem img{
+
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.NacaoZumbi .legenda-imagem p{
+    text-align: center;
+}
+
+.Manguebeat ul{
+    margin-left: 95px;
+    margin-top: 28px;
+}
+.Manguebeat li{
+    color:#fff;
+}
+
+/* REPENTE*/
+
+section .intro p{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.Ramalho{
+    padding: 20px;
+    margin-top: 50px;
+}
+.Ramalho h2{
+    margin-top: 60px;
+}
+
+.Ramalho h3{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+.Ramalho p{
+    margin-left: 10px;
+}
+
+.Ramalho .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Ramalho .legenda-imagem img{
+
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.Ramalho .legenda-imagem p{
+    text-align: center;
+}
+
+
+.Geraldo{
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.Geraldo .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Geraldo .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.Geraldo .legenda-imagem p{
+    text-align: center;
+}
+
+.Repente ul{
+    margin-left: 95px;
+    margin-top: 28px;
+}
+.Repente li{
+    color:#fff;
+}
+
+/* SAMBA DE RODA */
+
+section .intro p{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.Clara{
+    padding: 20px;
+    margin-top: 50px;
+}
+.Clara h2{
+    margin-top: 60px;
+}
+
+.Clara h3{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+.Clara p{
+    margin-left: 10px;
+}
+
+.Clara .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Clara .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+.Clara .legenda-imagem p{
+    text-align: center;
+}
+
+.Riachao{
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.Riachao .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Riachao .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.Riachao .legenda-imagem p{
+    text-align: center;
+}
+
+.Samba ul{
+    margin-left: 95px;
+    margin-top: 28px;
+}
+.Samba li{
+    color:#fff;
+}
+
+/* COCO */
+
+section .intro p{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.Lia{
+    padding: 20px;
+    margin-top: 50px;
+}
+.Lia h2{
+    margin-top: 60px;
+}
+
+.Lia h3{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+.Lia p{
+    margin-left: 10px;
+}
+
+.Lia .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Lia .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+.Lia .legenda-imagem p{
+    text-align: center;
+}
+
+.Selma{
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.Selma .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Selma .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.Selma .legenda-imagem p{
+    text-align: center;
+}
+
+.Coco ul{
+    margin-left: 95px;
+    margin-top: 28px;
+}
+.Coco li{
+    color:#fff;
+}
+
+/* XAXADO */
+
+section .intro p{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.LuizG{
+    padding: 20px;
+    margin-top: 50px;
+}
+.LuizG h2{
+    margin-top: 60px;
+}
+
+.LuizG h3{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+.LuizG p{
+    margin-left: 10px;
+}
+
+.LuizG .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.LuizG.legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+.LuizG.legenda-imagem p{
+    text-align: center;
+}
+
+.Marines{
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.Marines .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente na div */
+
+}
+.Marines .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+ 
+.Marines .legenda-imagem p{
+    text-align: center;
+}
+
+.Xaxado ul{
+    margin-left: 95px;
+    margin-top: 28px;
+}
+.Xaxado li{
+    color:#fff;
+}
+
+@media screen and (max-width: 700px){
+    *{
+        padding: 0;
+    }
+    .intro h1{
+        font-size: 24px;
+    }
+    body p{
+        font-size: 16px;
+    }
+    body h2{
+        margin-top: 30px;
+        font-size: 22px ;
+    }
+
+    body h3{
+        font-size: 20px;
+        margin-right: 68px;
+        margin-top: 14px;
+    }
+    img{
+        width: 100%;
+        margin-right: 5px;
+        position: left;
+        margin-bottom: 15px; 
+    }
+    .legenda-imagem{
+        flex-direction: column;
+        
+    }
+    .legenda-imagem p{
+        width: 270px;
+    }
+    /* INTRODUÇÃO */
+    body .intro h1{
+        font-size: 20px;
+        margin-right: 68px;
+        margin-left: 20px;
+        line-height: 20px;
+    }
+    body .intro p{
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 70px;
+   
+    }
+
+    /* FORRÓ */
+    .forro .intro{
+        margin-right: 55px;
+        justify-content: 7;
+    }
+    .forro img{
+        margin-left: 15px ;
+    }
+    
+
+}
+
+
+
